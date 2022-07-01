@@ -1,6 +1,7 @@
 public class Puffin implements Animal, CanSwim, CanFly {
-    public void fly() {
+    public int fly() {
         System.out.println("I'm puffin and I can fly up to 55 miles an hour!");
+        return 55;
     }
 
     public void swim() {
